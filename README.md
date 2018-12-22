@@ -9,7 +9,9 @@ Checkers is played by two opponents, on opposite sides of the game board. One pl
 
 **Pawn/Man**: Uncrowned pieces, i.e pawns, move one step diagonally forwards, and capture an opponent's piece by moving two consecutive steps in the same line, jumping over the piece on the first step. Multiple enemy pieces can be captured in a single turn provided this is done by successive jumps made by a single piece; the jumps do not need to be in the same line and may "zigzag" (change diagonal direction). In English Checkers pawns can jump only forwards.
 
-**Kings**: When a pawn reaches the kings row (also called crownhead, the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first pawn, and acquires additional powers including the ability to move backwards and (in variants where they cannot already do so) capture backwards. Like pawns, a king can make successive jumps in a single turn provided that each jump captures an enemy pawn or king. More details on this game can be found here:
+**Kings**: When a pawn reaches the kings row (also called crownhead, the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first pawn, and acquires additional powers including the ability to move backwards and (in variants where they cannot already do so) capture backwards. Like pawns, a king can make successive jumps in a single turn provided that each jump captures an enemy pawn or king.
+
+More details on this game can be found here: -- [Wikipedia](https://en.wikipedia.org/wiki/Draughts)
 
 **Learning Objectives**
 - Class
