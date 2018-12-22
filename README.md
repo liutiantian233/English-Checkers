@@ -11,7 +11,7 @@ Checkers is played by two opponents, on opposite sides of the game board. One pl
 
 **Kings**: When a pawn reaches the kings row (also called crownhead, the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first pawn, and acquires additional powers including the ability to move backwards and (in variants where they cannot already do so) capture backwards. Like pawns, a king can make successive jumps in a single turn provided that each jump captures an enemy pawn or king.
 
-More details on this game can be found here: -- [Wikipedia](https://en.wikipedia.org/wiki/Draughts)
+More details on this game can be found here -- [Wikipedia](https://en.wikipedia.org/wiki/Draughts)
 
 **Learning Objectives**
 - Class
