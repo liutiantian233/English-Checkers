@@ -74,7 +74,9 @@ def main():
 
 ---------
 ## Views and understanding of this project
+
 This is just a game of artificial intelligence projects, and there are some differences between the real algorithms. But I believe that in the future I can get inspiration and new ideas in this kind of algorithmic thinking.
+
 **TianTian Created on the eve of Christmas in 2018**
 
 ## Feedback and suggestions
