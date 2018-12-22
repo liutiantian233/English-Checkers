@@ -3,6 +3,11 @@
 
 Will implement a classical board game called **Checkers** in Python using classes. **Checkers** is a group of strategy board games for two players which involve diagonal moves of uniform game pieces and mandatory captures by jumping over opponent pieces. The game is usually played on an 8x8 “checkered” board. For an 8x8 board, there are twelve black and twelve white identical game pieces called **Pawns** (or **Men**). -- [Wikipedia](https://en.wikipedia.org/wiki/Draughts)
 
+### Graphical and desktop (Android)
+Refer to the Tk part of the python basic manual to program and desktop the program, but for personal reasons will temporarily learn the C++ language. If you are willing to participate or just have this idea and energy, please contact me. I am very happy to work with you.
+
+If you want to develop Android programs you can use Qpython, which is a new supplement package for python.
+
 ## Game Rules and Objective
 
 Checkers is played by two opponents, on opposite sides of the game board. One player has the black pieces; the other has the white pieces. Players alternate turns. A player may not move an opponent's piece. A move consists of moving a piece diagonally (forward from the player’s side) to an adjacent unoccupied square. If the adjacent square contains an opponent's piece, and the square immediately beyond it is vacant, the piece may be captured (and removed from the game) by jumping over it. Only the dark squares of the checkered board are used. A piece may move only diagonally into an unoccupied square. Capturing is mandatory in most official rules. In almost all variants, the player without pieces remaining, or who cannot move due to being blocked, loses the game.
