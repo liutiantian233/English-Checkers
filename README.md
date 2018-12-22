@@ -23,12 +23,12 @@ More details on this game can be found here: -- [Wikipedia](https://en.wikipedia
 ## The game play:
 Unfortunately we don't have any nice user interface for the game. What you are going to implement is a text based command line interface. When you start/run the game, it will look like this:
 ```python
+banner = """
   ____ _               _                     
  / ___| |__   ___  ___| | _____ _ __ ___    
 | |   | '_ \ / _ \/ __| |/ / _ \ '__/ __|    
 | |___| | | |  __/ (__|   <  __/ |  \__ \    
  \____|_| |_|\___|\___|_|\_\___|_|  |___/    
- 
 Developed by The TianTian Inc.
 About The AI
 Michigan State University
