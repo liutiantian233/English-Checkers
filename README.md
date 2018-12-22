@@ -40,9 +40,17 @@ East Lansing, MI, USA.
 First the game will ask for which color you are going to choose, then you type **black** or **white**. Once chosen yours and opponent's color are fixed. **In our case, *black* will always play the first move.** In our case the pawns will be denoted by **b** and **w**, the kings will be denoted by **B** and **W** (for black and white respectively). The board is composed of 8x8 “cells” and initialized with 12 black and 12 white pieces (for 10x10 board there will be 20 black and 20 white pieces etc.). In the starting position the pieces are placed on the first three rows closest to the players. This leaves two central rows empty. The whites will be placed at the bottom rows and blacks on the top. The last white row will start from the bottom left corner and the pieces will be placed by skipping every other cell. The rows on the board is numbered as **a, b, c, ..., h** and the columns as **1, 2, 3, ..., 8** etc.
 ![image](https://github.com/liutiantian233/English-Checkers/blob/master/Figure0.png)
 
+## Game Commands:
+In order to play the game, there is a set of commands that you are going to use (i.e. type at the prompt) --
+- **exit** If you type exit on the prompt, the game will exit by showing the final outcome of the game.
+- **pass** If you type pass, this will cause you to give up the game and admit defeat, no winning condition will be checked.
+- **move x y** This command will move a piece from position **x** to **y**, where **x** and **y** are diagonal to each other. Each position is denoted with a string board position like **'a2'**, **'c4'** etc. Each pawn only can move forward diagonals., but kings can move either forward or backward diagonals.
+> **Invalid moves will trigger Exceptions accordingly**
+- **jump x y** This command will cause a piece to jump from position **x** to **y**, where **x** and **y** are diagonals that are one cell away. This command will be used to capture an opponent piece between the positions **x** and **y**.
+
 -------------------
 
-**If you run the program (main.py), the game will start**
+**If you run the program (main.py), the game will start
 
 ## Feedback and suggestions
 - E-mail：<liutia20@msu.edu>
