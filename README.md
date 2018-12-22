@@ -50,11 +50,11 @@ In order to play the game, there is a set of commands that you are going to use 
 > **This command will also display similar message on the event of an invalid jump.**
 - **hints** If you type this command it’s going to show the moves or jumps that you have on the board. If there are jumps, no move is allowed and **hints** will show them accordingly.
 - **apply n** when you type hints, it’s going to show you the available m number of moves (or jumps) numbered from **1**. If you type **apply n** then **n-th** move (or jump) from the hints will be applied to the board.
-- **When the game finishes, the program will end the game by declaring the winner with the difference in the number of piece count **
+- **When the game finishes, the program will end the game by declaring the winner with the difference in the number of piece count.**
 
 -------------------
 
-**If you run the program (main.py), the game will start
+**If you run the program (main.py), the game will start**
 
 ## Feedback and suggestions
 - E-mail：<liutia20@msu.edu>
