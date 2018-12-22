@@ -47,6 +47,10 @@ In order to play the game, there is a set of commands that you are going to use 
 - **move x y** This command will move a piece from position **x** to **y**, where **x** and **y** are diagonal to each other. Each position is denoted with a string board position like **'a2'**, **'c4'** etc. Each pawn only can move forward diagonals., but kings can move either forward or backward diagonals.
 > **Invalid moves will trigger Exceptions accordingly**
 - **jump x y** This command will cause a piece to jump from position **x** to **y**, where **x** and **y** are diagonals that are one cell away. This command will be used to capture an opponent piece between the positions **x** and **y**.
+> **This command will also display similar message on the event of an invalid jump.**
+- **hints** If you type this command it’s going to show the moves or jumps that you have on the board. If there are jumps, no move is allowed and **hints** will show them accordingly.
+- **apply n** when you type hints, it’s going to show you the available m number of moves (or jumps) numbered from **1**. If you type **apply n** then **n-th** move (or jump) from the hints will be applied to the board.
+- **When the game finishes, the program will end the game by declaring the winner with the difference in the number of piece count **
 
 -------------------
 
