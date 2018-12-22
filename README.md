@@ -36,6 +36,10 @@ East Lansing, MI, USA.
 """
 ```
 
+## Pick a color:
+First the game will ask for which color you are going to choose, then you type **black** or **white**. Once chosen yours and opponent's color are fixed. **In our case, *black* will always play the first move.** In our case the pawns will be denoted by **b** and **w**, the kings will be denoted by **B** and **W** (for black and white respectively). The board is composed of 8x8 “cells” and initialized with 12 black and 12 white pieces (for 10x10 board there will be 20 black and 20 white pieces etc.). In the starting position the pieces are placed on the first three rows closest to the players. This leaves two central rows empty. The whites will be placed at the bottom rows and blacks on the top. The last white row will start from the bottom left corner and the pieces will be placed by skipping every other cell. The rows on the board is numbered as **a, b, c, ..., h** and the columns as **1, 2, 3, ..., 8** etc.
+![image](https://github.com/liutiantian233/English-Checkers/blob/master/Figure0.png)
+
 ## Feedback and suggestions
 - E-mail：<liutia20@msu.edu>
 
