@@ -173,10 +173,10 @@ banner = """
 | |___| | | |  __/ (__|   <  __/ |  \__ \    
  \____|_| |_|\___|\___|_|\_\___|_|  |___/    
 
-Developed by The Students Inc.
-CSE231 Fall Semester 2018
+Developed by The TianTian Inc.
+About The AI
 Michigan State University
-East Lansing, MI 48824, USA.
+East Lansing, MI, USA.
 """
 
 usage = """
