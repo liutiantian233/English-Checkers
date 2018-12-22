@@ -145,22 +145,10 @@ class Piece(object):
     """
     
     """ The symbols for the pieces: black and white circles. """
-    # If these unicode symbols do not work, use the letter symbols instead.
-    # box-element unicode
-    # symbols = [u"\u2593", u"\u2591"]
-    # disk-element unicode
-    # symbols = [u"\u26C2", u"\u26C0"]
-    # letter symbols, if unicode is not supported
     symbols = ['b', 'w']
     
     # the flag to denote if a piece is a king
     _is_king = False
-    # If these unicode symbols do not work, use the letter symbols instead.
-    # box-element unicode
-    # symbols_king = [u"\u251c", u"\u2560"]
-    # disk-element unicode
-    # symbols_king = [u"\u26C3", u"\u26C1"]
-    # letter symbols for king, if unicode is not supported
     symbols_king = ['B', 'W']
     
     def __init__(self, color = 'black', is_king = False):
