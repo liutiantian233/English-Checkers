@@ -56,6 +56,7 @@ In order to play the game, there is a set of commands that you are going to use 
 
 ## Project Specifications – main.py and tools.py files:
 **If you run the program (main.py), the game will start**
+
 There is file called tools.py which includes couple of difficult functions (finding all capturing paths, finding single move/jump positions etc.)
 
 ## Feedback and suggestions
