@@ -28,7 +28,7 @@ Unfortunately we don't have any nice user interface for the game. What you are g
 | |   | '_ \ / _ \/ __| |/ / _ \ '__/ __|    
 | |___| | | |  __/ (__|   <  __/ |  \__ \    
  \____|_| |_|\___|\___|_|\_\___|_|  |___/    
-
+ 
 Developed by The TianTian Inc.
 About The AI
 Michigan State University
