@@ -59,6 +59,8 @@ In order to play the game, there is a set of commands that you are going to use 
 
 There is file called tools.py which includes couple of difficult functions (finding all capturing paths, finding single move/jump positions etc.)
 
+In artificial intelligence programs, the computation time is not very short. Because I have added a lot of expected calculations to achieve the optimal solution, I don't think humans can beat him within the controllable range, so I added a version of human and human challenge before uploading the program.
+
 ## Feedback and suggestions
 - E-mail：<liutia20@msu.edu>
 
