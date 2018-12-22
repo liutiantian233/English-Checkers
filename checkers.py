@@ -170,13 +170,6 @@ class Piece(object):
         Returns the color of the piece.
         """
         return self._color
-
-# This function is not needed for checkers
-#    def flip_color(self):
-#        """
-#        Returns the bottom color of the piece.
-#        """
-#        return 'black' if self._color == 'white' else 'white'
         
     def is_black(self):
         """
