@@ -1,9 +1,11 @@
 # English-Checkers
+
 **English Checkers Artificial Intelligence**
 
 Will implement a classical board game called **Checkers** in Python using classes. **Checkers** is a group of strategy board games for two players which involve diagonal moves of uniform game pieces and mandatory captures by jumping over opponent pieces. The game is usually played on an 8x8 “checkered” board. For an 8x8 board, there are twelve black and twelve white identical game pieces called **Pawns** (or **Men**). -- [Wikipedia](https://en.wikipedia.org/wiki/Draughts)
 
 ### Graphical and desktop (Mac Windows Android)
+
 Refer to the Tk part of the python basic manual to program and desktop the program, but for personal reasons will temporarily learn the C++ language. If you are willing to participate or just have this idea and energy, please contact me. I am very happy to work with you.
 
 If you want to develop Android programs you can use Qpython, which is a new supplement package for python.
@@ -19,6 +21,7 @@ Checkers is played by two opponents, on opposite sides of the game board. One pl
 More details on this game can be found here -- [Wikipedia](https://en.wikipedia.org/wiki/Draughts)
 
 **Learning Objectives**
+
 - Class
 - just Class
 - important Class
@@ -26,7 +29,9 @@ More details on this game can be found here -- [Wikipedia](https://en.wikipedia.
 -------------------
 
 ## The game play:
+
 Unfortunately we don't have any nice user interface for the game. What you are going to implement is a text based command line interface. When you start/run the game, it will look like this:
+
 ```python
 """
   ____ _               _                     
@@ -42,17 +47,25 @@ East Lansing, MI, USA.
 ```
 
 ## Pick a color:
+
 First the game will ask for which color you are going to choose, then you type **black** or **white**. Once chosen yours and opponent's color are fixed. **In our case, *black* will always play the first move.** In our case the pawns will be denoted by **b** and **w**, the kings will be denoted by **B** and **W** (for black and white respectively). The board is composed of 8x8 “cells” and initialized with 12 black and 12 white pieces (for 10x10 board there will be 20 black and 20 white pieces etc.). In the starting position the pieces are placed on the first three rows closest to the players. This leaves two central rows empty. The whites will be placed at the bottom rows and blacks on the top. The last white row will start from the bottom left corner and the pieces will be placed by skipping every other cell. The rows on the board is numbered as **a, b, c, ..., h** and the columns as **1, 2, 3, ..., 8** etc.
-![image](https://github.com/liutiantian233/English-Checkers/blob/master/Figure.png)
+
+![](https://raw.githubusercontent.com/liutiantian233/English-Checkers/master/Figure.png)
 
 ## Game Commands:
-In order to play the game, there is a set of commands that you are going to use (i.e. type at the prompt) --
+
+In order to play the game, there is a set of commands that you are going to use (i.e. type at the prompt)
+
 - **exit** If you type exit on the prompt, the game will exit by showing the final outcome of the game.
 - **pass** If you type pass, this will cause you to give up the game and admit defeat, no winning condition will be checked.
 - **move x y** This command will move a piece from position **x** to **y**, where **x** and **y** are diagonal to each other. Each position is denoted with a string board position like **'a2'**, **'c4'** etc. Each pawn only can move forward diagonals., but kings can move either forward or backward diagonals.
+
 > **Invalid moves will trigger Exceptions accordingly**
+
 - **jump x y** This command will cause a piece to jump from position **x** to **y**, where **x** and **y** are diagonals that are one cell away. This command will be used to capture an opponent piece between the positions **x** and **y**.
+
 > **This command will also display similar message on the event of an invalid jump.**
+
 - **hints** If you type this command it’s going to show the moves or jumps that you have on the board. If there are jumps, no move is allowed and **hints** will show them accordingly.
 - **apply n** when you type hints, it’s going to show you the available m number of moves (or jumps) numbered from **1**. If you type **apply n** then **n-th** move (or jump) from the hints will be applied to the board.
 - **When the game finishes, the program will end the game by declaring the winner with the difference in the number of piece count.**
@@ -60,17 +73,21 @@ In order to play the game, there is a set of commands that you are going to use 
 -------------------
 
 ## Project Specifications – main.py and tools.py files:
+
 **If you run the program (main.py), the game will start**
 
 There is file called tools.py which includes couple of difficult functions (finding all capturing paths, finding single move/jump positions etc.)
 
 In artificial intelligence programs, the computation time is not very short. Because I have added a lot of expected calculations to achieve the optimal solution, I don't think humans can beat him within the controllable range, so I added a version of human and human challenge before uploading the program.
+
 ```python
 def main():
     # game_play_human()
     game_play_ai()
 ```
+
 **This section needs to be changed in the file(main.py) to complete.**
+
 ```python
 def main():
     game_play_human()
@@ -78,6 +95,7 @@ def main():
 ```
 
 ---------
+
 ## Views and understanding of this project
 
 This is just a game of artificial intelligence projects, and there are some differences between the real algorithms. But I believe that in the future I can get inspiration and new ideas in this kind of algorithmic thinking.
@@ -85,7 +103,9 @@ This is just a game of artificial intelligence projects, and there are some diff
 **TianTian Created on the eve of Christmas in 2018**
 
 ## Feedback and suggestions
+
 - E-mail：<liutia20@msu.edu>
 
 ---------
+
 Thanks for reading this help document
